@@ -1,0 +1,185 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#header {
+  height: 13vh;
+  width: 100%;
+  position: fixed; /*fixing postion for the same two pages*/
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+#fakeHeader {
+  height: 13vh;
+  width: 100%;
+  /* just for fixing the problem of the header overlaying other element let overly this useless one...*/
+}
+.texts {
+  color: rgb(3, 3, 45);
+  display: flex;
+}
+.texts:hover {
+  color: rgb(52, 154, 154);
+}
+#logo {
+  height: 70%;
+  margin: 20px 20px;
+  /* width: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px; */
+}
+#logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#contactDetails {
+  text-align: center;
+  color: lightskyblue;
+}
+.icon {
+  padding: 10px;
+  border-radius: 50px;
+}
+.icon:hover {
+  background-color: lightblue;
+}
+#LoginForm {
+  display: flex;
+  border-radius: 50px;
+  padding: 10px;
+}
+#LoginForm:hover {
+  background-color: lightblue;
+}
+#Try {
+  background-color: green;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+#Try:hover {
+  background-color: rgb(7, 52, 7);
+}
+#page1 {
+  height: 87vh;
+  width: 100%;
+  background-color: white;
+}
+#strip {
+  height: 7%;
+  width: 100%;
+  background-color: rgb(47, 47, 174);
+  justify-content: center;
+  color: white;
+  display: flex;
+}
+#strip p {
+  padding-top: 10px;
+  font-weight: bold;
+  align-items: center;
+  margin-right: 15px;
+}
+#contentOfthePage {
+  height: 75%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+#box1 {
+  background-color: rgb(255, 255, 255);
+  height: 90%;
+  width: 48%;
+  padding-left: 50px;
+}
+#box1 h1 {
+  height: 30%;
+  width: 80%;
+  font-weight: 500;
+  font-size: 60px;
+  margin: 30px 10px;
+  color: rgb(29, 29, 209);
+}
+#box1 p {
+  height: 30%;
+  width: 80%;
+  font-size: x-large;
+  font-size: 25px;
+  margin: 0px 10px;
+  font-weight: lighter;
+}
+#Box1Buttons {
+  margin: 0px 10px;
+  display: flex;
+  height: 10%;
+}
+#b1 {
+  padding: 10px 20px;
+  background-color: rgb(44, 44, 223);
+  color: white;
+  margin-right: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+#b1:hover {
+  background-color: rgb(46, 46, 112);
+}
+
+#b2 {
+  padding: 10px 20px;
+  background-color: rgb(226, 226, 237);
+  color: rgb(46, 117, 203);
+  border-radius: 5px;
+  border: 2px solid rgb(46, 117, 203);
+  text-align: center;
+}
+#b2:hover {
+  background-color: rgb(144, 144, 204);
+  color: rgb(23, 18, 96);
+  border-color: rgb(23, 18, 96);
+}
+#box2 {
+  background-color: rgb(178, 178, 211);
+  height: 90%;
+  width: 48%;
+}
+#box2 img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+#bottomAd {
+  height: 14%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(22, 22, 96);
+}
+#bottomAd h1 {
+  font-weight: 700;
+}
+
+#page2 {
+  height: 87vh;
+  width: 100%;
+}
