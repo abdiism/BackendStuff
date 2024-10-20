@@ -6,6 +6,7 @@ const app = express(); //creating instance  an express app
 
 const port =process.env.port || 3000;
 app.use(express.json());
+// command line logger for requests 
 const requestLogger= (request,response,next)=>{
 console.log(`Request is recieved: ${request.method} ${request.url}`);
 next();
